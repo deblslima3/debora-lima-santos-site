@@ -5,6 +5,7 @@ import {
   BookOpen,
   CheckCircle2,
   Dna,
+  Download,
   FileText,
   GraduationCap,
   Leaf,
@@ -113,8 +114,8 @@ const professionalHighlights = [
     label: "experiência em ecossistemas terrestres, ripários e aquáticos",
   },
   {
-    value: "Ciência ↔ ação",
-    label: "artigos, projetos aplicados, policy briefs, ensino e extensão",
+    value: "P&D ambiental",
+    label: "ecotecnologias, bioindicadores, qualidade analítica e suporte à decisão",
   },
 ];
 
@@ -134,7 +135,7 @@ const differentials = [
   {
     number: "03",
     title: "Do diagnóstico à solução",
-    text: "Combino monitoramento, modelagem, ecossistemas de referência, geotecnologias e restauração para apoiar decisões ambientais.",
+    text: "Combino P&D, monitoramento, qualidade analítica, modelagem, ecossistemas de referência, geotecnologias e restauração para apoiar decisões ambientais.",
     icon: Microscope,
   },
   {
@@ -153,9 +154,9 @@ const projects = [
     icon: Leaf,
   },
   {
-    label: "2021—Atual · Biochronos / UFMG",
-    title: "Degradação oculta na interface terra–água do Rio Doce",
-    text: "Monitoramento espaço-temporal da paisagem, biodiversidade, funções e serviços ecossistêmicos em áreas afetadas pelos rejeitos da barragem de Fundão.",
+    label: "2024—2025 · BIOCHRONOS / UFMG",
+    title: "Ciência e gestão de pesquisa na bacia do Rio Doce",
+    text: "Atuação como bolsista de Desenvolvimento em Ciência, Tecnologia e Inovação (BDCTI) no monitoramento da degradação oculta na interface terra–água. A experiência reuniu planejamento de experimento de decomposição aquática ao longo de mais de 600 km do Rio Doce, gestão de amostras e insumos, organização de campanhas, apoio técnico em laboratório, capacitação em subprojetos e divulgação do Biochronos em eventos científicos e do setor mineral.",
     icon: Waves,
   },
   {
@@ -171,16 +172,10 @@ const projects = [
     icon: Sprout,
   },
   {
-    label: "2018—2019 · PROECOS / UFMG",
-    title: "Ecotecnologias de diagnóstico ambiental",
-    text: "Atuação no desenvolvimento de abordagens taxonômicas e funcionais para avaliar impactos múltiplos e a integridade de ecossistemas aquáticos.",
+    label: "2018—2019 · P&D ANEEL–CEMIG GT-599 / UFMG",
+    title: "P&D em ecotecnologias para diagnóstico ambiental",
+    text: "Bolsista de apoio técnico no Laboratório de Ecologia de Bentos, com atuação em calibração e manutenção de equipamentos para análises físico-químicas da água, preparo de reagentes e amostras, implantação da rotina de extração de clorofila, controle de insumos e suporte a instituições parceiras. Também participou do treinamento da equipe para a reamostragem padronizada de 40 riachos na unidade hidrológica de Nova Ponte e para a aplicação de protocolos de integridade biológica.",
     icon: Microscope,
-  },
-  {
-    label: "2024—Atual · Serras Ferruginosas Amazônicas",
-    title: "Sociobiodiversidade sob mudanças do clima e dos solos",
-    text: "Pesquisa colaborativa sobre os desafios de conservação em paisagens amazônicas submetidas às mudanças climáticas e à conversão dos solos.",
-    icon: Map,
   },
 ];
 
@@ -215,6 +210,75 @@ const selectedPublications = [
   },
 ];
 
+const knowledgeProducts = [
+  {
+    type: "Policy brief · 2025",
+    role: "Primeira autora",
+    title: "Invasão biológica na Serra do Cipó: capim-natal",
+    text: "Alerta técnico sobre o avanço de Melinis repens no campo rupestre, seus impactos sobre a biodiversidade e caminhos para prevenção, controle e governança.",
+    cover: "/trabalhos/capas/capim-natal.webp",
+    pdf: "/trabalhos/capim-natal.pdf",
+    sourceHref: "https://doi.org/10.6084/m9.figshare.29979736",
+    sourceLabel: "Acessar DOI",
+  },
+  {
+    type: "Resumo executivo · 2025",
+    role: "Coautora",
+    title: "Prioridades na restauração de ecossistemas no Brasil",
+    text: "Síntese nacional de prioridades científicas, sociais e institucionais para orientar políticas e ações de restauração ecológica em diferentes biomas.",
+    cover: "/trabalhos/capas/prioridades-restauracao.webp",
+    pdf: "/trabalhos/prioridades-restauracao.pdf",
+    sourceHref: "https://doi.org/10.6084/m9.figshare.29646914",
+    sourceLabel: "Acessar DOI",
+  },
+  {
+    type: "Alerta científico · 2025",
+    role: "Signatária",
+    title: "Alerta científico sobre a bacia do Rio Doce",
+    text: "Posicionamento coletivo baseado em evidências sobre riscos socioambientais, integridade ecológica e a necessidade de decisões responsáveis para a bacia.",
+    cover: "/trabalhos/capas/alerta-rio-doce.webp",
+    pdf: "/trabalhos/alerta-rio-doce.pdf",
+  },
+  {
+    type: "Policy brief · 2025",
+    role: "Coautora",
+    title: "Invasão biológica na Serra do Cipó: capim-meloso",
+    text: "Diagnóstico acessível sobre a expansão do capim-meloso no campo rupestre, os efeitos ecológicos da invasão e prioridades de manejo integrado.",
+    cover: "/trabalhos/capas/capim-meloso.webp",
+    pdf: "/trabalhos/capim-meloso.pdf",
+    sourceHref: "https://doi.org/10.6084/m9.figshare.29839706",
+    sourceLabel: "Acessar DOI",
+  },
+  {
+    type: "Policy brief · 2025",
+    role: "Coautora",
+    title: "Invasão biológica na Serra do Cipó: unha-de-gato",
+    text: "Alerta sobre uma planta invasora capaz de alterar a vegetação nativa, com recomendações para detecção, controle e participação das comunidades locais.",
+    cover: "/trabalhos/capas/unha-de-gato.webp",
+    pdf: "/trabalhos/unha-de-gato.pdf",
+    sourceHref: "https://doi.org/10.6084/m9.figshare.30311899",
+    sourceLabel: "Acessar DOI",
+  },
+  {
+    type: "Policy brief · 2025",
+    role: "Coautora",
+    title: "Invasão biológica na Serra do Cipó: pinheiro-americano",
+    text: "Síntese sobre os impactos do pinheiro-americano no campo rupestre e sobre medidas de prevenção, controle e restauração dos ambientes afetados.",
+    cover: "/trabalhos/capas/pinheiro-americano.webp",
+    pdf: "/trabalhos/pinheiro-americano.pdf",
+    sourceHref: "https://doi.org/10.6084/m9.figshare.30921011",
+    sourceLabel: "Acessar DOI",
+  },
+  {
+    type: "Material educativo",
+    role: "Redação e distribuição",
+    title: "Germinação de sementes: por que estudar e por que conservar?",
+    text: "Material de divulgação que traduz evidências sobre a germinação de plantas endêmicas do Campo Rupestre em uma narrativa visual, clara e acessível.",
+    cover: "/trabalhos/capas/germinacao-campo-rupestre.webp",
+    pdf: "/trabalhos/germinacao-campo-rupestre.pdf",
+  },
+];
+
 const timeline = [
   {
     date: "2010—2014",
@@ -229,10 +293,16 @@ const timeline = [
     text: "Pesquisa sobre a distribuição de insetos galhadores em diferentes habitats do Cerrado, conectando heterogeneidade ambiental, estresse e interações inseto–planta.",
   },
   {
-    date: "2018—2020",
-    institution: "UFMG · PROECOS · Rio Doce",
-    title: "Pesquisa aplicada e diagnóstico ambiental",
-    text: "Atuação em ecotecnologias, bioindicadores, processos ecológicos e restauração de áreas afetadas por mineração, em projetos de grande escala.",
+    date: "2018—2019",
+    institution: "UFMG · P&D ANEEL–CEMIG GT-599",
+    title: "Bolsista de apoio técnico no PROECOS",
+    text: "Atuação em P&D ambiental com controle de qualidade de equipamentos e dados, análises físico-químicas da água, preparo de reagentes e amostras, extração de clorofila e capacitação da equipe para a reamostragem de 40 riachos e o uso de protocolos de integridade biológica.",
+  },
+  {
+    date: "2019—2020",
+    institution: "UFMG · Restauração com Ciência",
+    title: "Pesquisa aplicada à restauração do Rio Doce",
+    text: "Coordenação de projeto dedicado a ecossistemas de referência, seleção e desempenho de espécies e desenvolvimento de sensoriamento remoto para monitorar áreas degradadas.",
   },
   {
     date: "2020—2024",
@@ -243,8 +313,8 @@ const timeline = [
   {
     date: "2024—2025",
     institution: "UFMG · Biochronos",
-    title: "Pós-doutorado em Ciência, Tecnologia e Inovação",
-    text: "Pesquisa sobre degradação oculta, biodiversidade e funcionamento de ecossistemas na interface terra–água da bacia do Rio Doce.",
+    title: "Desenvolvimento em Ciência, Tecnologia e Inovação",
+    text: "Atuação técnico-científica ampla no Biochronos: planejamento experimental em decomposição aquática, gestão de amostras e insumos, logística de campo, apoio laboratorial, capacitação em subprojetos, comunicação institucional e divulgação de resultados.",
   },
   {
     date: "2025—Atual",
@@ -534,6 +604,37 @@ export default async function Home() {
           <a className="all-work-link" href="https://orcid.org/0000-0001-5890-6575" target="_blank" rel="noreferrer">
             Ver produção completa no ORCID <ArrowUpRight size={17} />
           </a>
+
+          <div className="knowledge-heading">
+            <p className="section-kicker light">Produção técnico-científica e divulgação</p>
+            <div>
+              <h3>Conhecimento que orienta decisões e amplia o acesso à ciência.</h3>
+              <p>Policy briefs, sínteses e materiais educativos que conectam biodiversidade, restauração e comunicação pública.</p>
+            </div>
+          </div>
+          <div className="knowledge-grid">
+            {knowledgeProducts.map((item) => (
+              <article className="knowledge-card" key={item.title}>
+                <a className="knowledge-cover" href={item.pdf} target="_blank" rel="noreferrer" aria-label={`${item.title} — abrir PDF`}>
+                  <img src={item.cover} alt={`Capa de ${item.title}`} loading="lazy" />
+                </a>
+                <div className="knowledge-copy">
+                  <div className="knowledge-meta">
+                    <span>{item.type}</span>
+                    <strong>{item.role}</strong>
+                  </div>
+                  <h4>{item.title}</h4>
+                  <p>{item.text}</p>
+                  <div className="knowledge-links">
+                    <a href={item.pdf} target="_blank" rel="noreferrer">Abrir PDF <Download size={15} /></a>
+                    {item.sourceHref ? (
+                      <a href={item.sourceHref} target="_blank" rel="noreferrer">{item.sourceLabel} <ArrowUpRight size={15} /></a>
+                    ) : null}
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
         </section>
 
         <section className="trajectory" id="trajetoria">
