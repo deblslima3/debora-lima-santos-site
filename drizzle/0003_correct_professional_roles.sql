@@ -1,0 +1,6 @@
+INSERT INTO `site_content` (`key`, `value`, `updated_at`) VALUES
+  ('aboutBody', 'Sou bacharel em Ciências Biológicas e mestre em Biodiversidade e Uso dos Recursos Naturais pela UNIMONTES, doutora em Ecologia e Conservação da Biodiversidade pela UESC e realizei pós-doutorado no projeto Biochronos, na UFMG. Atualmente, sou pós-doutoranda no INSECTA/UNIMONTES e cientista associada ao Centro de Conhecimento em Biodiversidade. Em mais de 15 anos de trajetória acadêmica e científica, integrei entomologia, limnologia, ecologia de comunidades, mudanças globais, restauração, modelagem ecológica e popularização da ciência.', CURRENT_TIMESTAMP),
+  ('collaborationBody', 'Atuo em equipes interdisciplinares e projetos interinstitucionais que aproximam universidades, centros de pesquisa, setor produtivo, poder público, escolas e comunidades. Sou cientista associada ao Centro de Conhecimento em Biodiversidade e integrei as comissões organizadoras do III Workshop Biochronos e do Restaura+. Essa experiência fortalece minha capacidade de formular perguntas relevantes, colaborar com diferentes especialidades e ampliar o alcance social das soluções.', CURRENT_TIMESTAMP)
+ON CONFLICT(`key`) DO UPDATE SET
+  `value` = excluded.`value`,
+  `updated_at` = CURRENT_TIMESTAMP;

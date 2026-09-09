@@ -50,7 +50,7 @@ export const DEFAULT_CONTENT: EditableContent = {
   aboutLead:
     "Minha especialidade é conectar escalas: parto da história natural e das interações entre organismos para compreender mudanças em comunidades, paisagens e funções ecossistêmicas.",
   aboutBody:
-    "Sou bacharel em Ciências Biológicas e mestre em Biodiversidade e Uso dos Recursos Naturais pela UNIMONTES, doutora em Ecologia e Conservação da Biodiversidade pela UESC e realizei pós-doutorado no projeto Biochronos, na UFMG. Atualmente, sou pós-doutoranda no INSECTA/UNIMONTES. Em mais de 15 anos de trajetória acadêmica e científica, integrei entomologia, limnologia, ecologia de comunidades, mudanças globais, restauração, modelagem ecológica e popularização da ciência.",
+    "Sou bacharel em Ciências Biológicas e mestre em Biodiversidade e Uso dos Recursos Naturais pela UNIMONTES, doutora em Ecologia e Conservação da Biodiversidade pela UESC e realizei pós-doutorado no projeto Biochronos, na UFMG. Atualmente, sou pós-doutoranda no INSECTA/UNIMONTES e cientista associada ao Centro de Conhecimento em Biodiversidade. Em mais de 15 anos de trajetória acadêmica e científica, integrei entomologia, limnologia, ecologia de comunidades, mudanças globais, restauração, modelagem ecológica e popularização da ciência.",
   researchTitle: "Expertise que atravessa escalas e fronteiras disciplinares.",
   researchBody:
     "Da biologia dos insetos às mudanças na distribuição de espécies; dos ecossistemas ripários aos impactos da mineração; dos dados científicos às decisões ambientais. Minhas frentes se complementam para explicar os mecanismos da perda de biodiversidade e desenvolver respostas aplicáveis.",
@@ -74,7 +74,7 @@ export const DEFAULT_CONTENT: EditableContent = {
     "Escrevo, ensino e crio experiências para públicos diversos. Artigos de divulgação, materiais educativos, palestras, feiras de ciências, entrevistas e policy briefs transformam temas complexos em narrativas claras, sem perder precisão — conectando biodiversidade aos desafios do cotidiano.",
   collaborationTitle: "Conhecimento ambiental é uma construção coletiva.",
   collaborationBody:
-    "Atuo em equipes interdisciplinares e projetos interinstitucionais que aproximam universidades, centros de pesquisa, setor produtivo, poder público, escolas e comunidades. Essa experiência fortalece minha capacidade de formular perguntas relevantes, coordenar entregas, colaborar com diferentes especialidades e ampliar o alcance social das soluções.",
+    "Atuo em equipes interdisciplinares e projetos interinstitucionais que aproximam universidades, centros de pesquisa, setor produtivo, poder público, escolas e comunidades. Sou cientista associada ao Centro de Conhecimento em Biodiversidade e integrei as comissões organizadoras do III Workshop Biochronos e do Restaura+. Essa experiência fortalece minha capacidade de formular perguntas relevantes, colaborar com diferentes especialidades e ampliar o alcance social das soluções.",
 };
 
 const editableKeys = Object.keys(DEFAULT_CONTENT) as Array<keyof EditableContent>;

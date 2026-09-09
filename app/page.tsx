@@ -155,8 +155,8 @@ const projects = [
   },
   {
     label: "2024—2025 · BIOCHRONOS / UFMG",
-    title: "Ciência e gestão de pesquisa na bacia do Rio Doce",
-    text: "Atuação como bolsista de Desenvolvimento em Ciência, Tecnologia e Inovação (BDCTI) no monitoramento da degradação oculta na interface terra–água. A experiência reuniu planejamento de experimento de decomposição aquática ao longo de mais de 600 km do Rio Doce, gestão de amostras e insumos, organização de campanhas, apoio técnico em laboratório, capacitação em subprojetos e divulgação do Biochronos em eventos científicos e do setor mineral.",
+    title: "Apoio técnico e pesquisa pós-doutoral na bacia do Rio Doce",
+    text: "Atuação profissional no Biochronos inicialmente em apoio técnico e, posteriormente, como pós-doutoranda, contribuindo para o monitoramento da degradação oculta na interface terra–água. As atividades incluíram planejamento de experimento de decomposição aquática ao longo de mais de 600 km do Rio Doce, gestão de amostras e insumos, organização de campanhas, apoio laboratorial, capacitação em subprojetos, comunicação e divulgação científica. Também integrou as comissões organizadoras do III Workshop Biochronos e do Restaura+.",
     icon: Waves,
   },
   {
@@ -313,8 +313,8 @@ const timeline = [
   {
     date: "2024—2025",
     institution: "UFMG · Biochronos",
-    title: "Desenvolvimento em Ciência, Tecnologia e Inovação",
-    text: "Atuação técnico-científica ampla no Biochronos: planejamento experimental em decomposição aquática, gestão de amostras e insumos, logística de campo, apoio laboratorial, capacitação em subprojetos, comunicação institucional e divulgação de resultados.",
+    title: "Apoio técnico e pesquisa pós-doutoral",
+    text: "Atuação profissional inicialmente em apoio técnico e, depois, como pós-doutoranda no Biochronos, com planejamento experimental em decomposição aquática, gestão de amostras e insumos, logística de campo, apoio laboratorial, capacitação em subprojetos, comunicação institucional e divulgação de resultados. Participação nas comissões organizadoras do III Workshop Biochronos e do Restaura+.",
   },
   {
     date: "2025—Atual",
@@ -361,6 +361,7 @@ const institutions = [
   "UFMG",
   "INSECTA",
   "Biochronos",
+  "Centro de Conhecimento em Biodiversidade",
   "CEMIG / PROECOS",
   "Observatório da Biodiversidade Brasileira",
   "CNPq / CAPES",
@@ -383,6 +384,9 @@ const personSchema = {
   alumniOf: [
     { "@type": "CollegeOrUniversity", name: "Universidade Estadual de Montes Claros" },
     { "@type": "CollegeOrUniversity", name: "Universidade Estadual de Santa Cruz" },
+  ],
+  affiliation: [
+    { "@type": "Organization", name: "Centro de Conhecimento em Biodiversidade" },
   ],
   knowsAbout: [
     "Ecologia",
