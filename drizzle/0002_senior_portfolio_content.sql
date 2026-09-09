@@ -1,0 +1,27 @@
+INSERT INTO `site_content` (`key`, `value`, `updated_at`) VALUES
+  ('heroKicker', 'Dra. Débora Lima Santos · Ecologia, entomologia e biodiversidade', CURRENT_TIMESTAMP),
+  ('heroTitle', 'Biodiversidade no Antropoceno', CURRENT_TIMESTAMP),
+  ('heroEmphasis', 'Da compreensão das mudanças à construção de soluções ambientais.', CURRENT_TIMESTAMP),
+  ('heroIntro', 'Sou bióloga, doutora em Ecologia e Conservação da Biodiversidade e pesquisadora interdisciplinar. Investigo como espécies, comunidades e funções ecológicas respondem às mudanças climáticas e às transformações humanas — e como esse conhecimento pode orientar conservação, restauração e gestão ambiental.', CURRENT_TIMESTAMP),
+  ('themeTitle', 'Compreender mudanças. Revelar respostas. Construir soluções.', CURRENT_TIMESTAMP),
+  ('themeSubtitle', 'Meu trabalho conecta as pressões que definem o Antropoceno às respostas da biodiversidade e aos caminhos para conservar e restaurar ecossistemas. Esse eixo reúne organismos, comunidades, paisagens, ambientes terrestres e aquáticos, métodos de campo, modelagem e comunicação sob uma mesma agenda científica.', CURRENT_TIMESTAMP),
+  ('aboutTitle', 'Uma ecóloga entre organismos, paisagens, dados e pessoas.', CURRENT_TIMESTAMP),
+  ('aboutLead', 'Minha especialidade é conectar escalas: parto da história natural e das interações entre organismos para compreender mudanças em comunidades, paisagens e funções ecossistêmicas.', CURRENT_TIMESTAMP),
+  ('aboutBody', 'Sou bacharel em Ciências Biológicas e mestre em Biodiversidade e Uso dos Recursos Naturais pela UNIMONTES, doutora em Ecologia e Conservação da Biodiversidade pela UESC e realizei pós-doutorado no projeto Biochronos, na UFMG. Atualmente, sou pós-doutoranda no INSECTA/UNIMONTES. Em mais de 15 anos de trajetória acadêmica e científica, integrei entomologia, limnologia, ecologia de comunidades, mudanças globais, restauração, modelagem ecológica e popularização da ciência.', CURRENT_TIMESTAMP),
+  ('researchTitle', 'Expertise que atravessa escalas e fronteiras disciplinares.', CURRENT_TIMESTAMP),
+  ('researchBody', 'Da biologia dos insetos às mudanças na distribuição de espécies; dos ecossistemas ripários aos impactos da mineração; dos dados científicos às decisões ambientais. Minhas frentes se complementam para explicar os mecanismos da perda de biodiversidade e desenvolver respostas aplicáveis.', CURRENT_TIMESTAMP),
+  ('differentialsTitle', 'Rigor científico com visão sistêmica e capacidade de aplicação.', CURRENT_TIMESTAMP),
+  ('differentialsBody', 'Meu diferencial não está apenas na variedade de temas, mas na capacidade de integrá-los: combino história natural, ecologia funcional, análise espacial, síntese de evidências e comunicação para acompanhar um problema desde a pergunta científica até sua tradução em ação.', CURRENT_TIMESTAMP),
+  ('publicationsTitle', 'Evidências que ampliam o conhecimento e orientam decisões.', CURRENT_TIMESTAMP),
+  ('publicationsBody', 'Minha produção recente investiga consequências da mineração, mudanças climáticas, espécies invasoras, polinizadores e funcionamento de ecossistemas. Os trabalhos conectam padrões ecológicos a desafios concretos de conservação e recuperação ambiental.', CURRENT_TIMESTAMP),
+  ('trajectoryTitle', 'Formação contínua. Pesquisa conectada à realidade.', CURRENT_TIMESTAMP),
+  ('trajectoryBody', 'Minha trajetória foi construída em laboratórios, áreas naturais e ecossistemas impactados, em projetos de diferentes escalas e redes interinstitucionais. Campanhas de campo, experimentos, bancos de biodiversidade, traços funcionais, geoprocessamento, programação em R, modelagem, relatórios e formação de estudantes compõem uma prática científica rigorosa e colaborativa.', CURRENT_TIMESTAMP),
+  ('originTitle', 'A educação transformou minha vida. Democratizar a ciência é parte do meu trabalho.', CURRENT_TIMESTAMP),
+  ('originBody', 'Sou egressa de escola pública. Ainda criança, descobri a Ciência Hoje das Crianças na biblioteca da escola e encontrei ali um universo que despertou minha curiosidade. Os estudos me permitiram romper com a miséria e chegar ao doutorado. Por isso, produzir conhecimento e torná-lo acessível são compromissos inseparáveis na minha trajetória.', CURRENT_TIMESTAMP),
+  ('outreachTitle', 'Ciência que informa, aproxima e produz pertencimento.', CURRENT_TIMESTAMP),
+  ('outreachBody', 'Escrevo, ensino e crio experiências para públicos diversos. Artigos de divulgação, materiais educativos, palestras, feiras de ciências, entrevistas e policy briefs transformam temas complexos em narrativas claras, sem perder precisão — conectando biodiversidade aos desafios do cotidiano.', CURRENT_TIMESTAMP),
+  ('collaborationTitle', 'Conhecimento ambiental é uma construção coletiva.', CURRENT_TIMESTAMP),
+  ('collaborationBody', 'Atuo em equipes interdisciplinares e projetos interinstitucionais que aproximam universidades, centros de pesquisa, setor produtivo, poder público, escolas e comunidades. Essa experiência fortalece minha capacidade de formular perguntas relevantes, coordenar entregas, colaborar com diferentes especialidades e ampliar o alcance social das soluções.', CURRENT_TIMESTAMP)
+ON CONFLICT(`key`) DO UPDATE SET
+  `value` = excluded.`value`,
+  `updated_at` = CURRENT_TIMESTAMP;
