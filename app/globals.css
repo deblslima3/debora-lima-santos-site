@@ -242,8 +242,8 @@ h1 em { max-width: 820px; margin-top: 26px; color: var(--moss); font-size: .42em
 
 .science-society { padding: 120px 7vw; background: var(--paper); }
 .society-heading { display: grid; grid-template-columns: 1.08fr .92fr; gap: 9vw; align-items: end; margin-bottom: 70px; }
-.society-heading .section-kicker { grid-column: 1 / -1; margin-bottom: -18px; }
-.society-heading h2 { max-width: 900px; margin: 0; font-size: clamp(49px, 5.4vw, 82px); line-height: .96; }
+.society-heading .section-kicker { grid-column: auto; margin: 0 0 clamp(18px, 1.8vw, 28px); line-height: 1.45; }
+.society-heading h2 { max-width: 900px; margin: 0; font-size: clamp(49px, 5.4vw, 82px); line-height: 1.02; }
 .society-heading > p:last-child { max-width: 630px; margin: 0; color: #596a63; font-size: 17px; line-height: 1.8; }
 .society-layout { display: grid; grid-template-columns: .82fr 1.18fr; gap: 28px; align-items: stretch; }
 .origin-story { min-height: 600px; display: flex; flex-direction: column; padding: 48px; background: var(--acid); }
@@ -376,7 +376,8 @@ footer { padding: 110px 7vw 32px; background: var(--forest-deep); color: white; 
   .theme-section, .manifesto, .projects, .research, .differentials, .publications, .science-society, .collaboration, .career-gallery { padding: 80px 22px; }
   .theme-intro, .manifesto-grid, .section-heading, .differentials-heading, .society-heading, .collaboration { grid-template-columns: 1fr; gap: 28px; }
   .theme-intro .section-kicker { margin-bottom: 8px; }
-  .differentials-heading .section-kicker, .society-heading .section-kicker { margin-bottom: 8px; }
+  .differentials-heading .section-kicker { margin-bottom: 8px; }
+  .society-heading .section-kicker { margin-bottom: 16px; }
   .theme-intro h2, .manifesto h2, .section-heading h2, .differentials-heading h2, .society-heading h2, .collaboration h2 { font-size: 49px; }
   .framework, .research-grid, .differential-grid, .publication-grid { grid-template-columns: 1fr; }
   .framework-step { min-height: 230px; }
