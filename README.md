@@ -1,72 +1,35 @@
-# Débora Lima Santos — Portfólio acadêmico
+# Site profissional — Débora Lima Santos
 
-Código-fonte do site profissional da Dra. Débora Lima Santos, bióloga, pesquisadora e divulgadora científica com trajetória multidisciplinar em biodiversidade, ecologia, conservação e comunicação da ciência.
+Portfólio profissional, acadêmico e científico de Débora Lima Santos, bióloga e doutora em Ecologia e Conservação da Biodiversidade.
 
-## Site online
+## Publicação no GitHub Pages
 
-- Site público: [debora-lima-santos.deblslima3.chatgpt.site](https://debora-lima-santos.deblslima3.chatgpt.site)
-- Área de edição: [debora-lima-santos.deblslima3.chatgpt.site/editar](https://debora-lima-santos.deblslima3.chatgpt.site/editar)
+Este repositório foi preparado como um site estático. Para publicar:
 
-A área de edição é restrita à proprietária.
+1. Abra **Settings** no repositório.
+2. Acesse **Pages**.
+3. Em **Build and deployment**, selecione **Deploy from a branch**.
+4. Escolha a branch **main**, a pasta **/(root)** e clique em **Save**.
+5. Aguarde a publicação e, na mesma página, clique em **Visit site**.
 
-## Recursos
+O endereço esperado é:
 
-- portfólio acadêmico responsivo;
-- apresentação profissional, trajetória e áreas de atuação;
-- projetos de pesquisa e produção científica;
-- memória visual com galeria;
-- edição de textos pelo navegador;
-- envio, organização e exclusão de fotografias;
-- compressão automática de imagens para WebP;
-- armazenamento persistente de textos e metadados;
-- autenticação da área administrativa.
+<https://deblslima3.github.io/debora-lima-santos-site/>
 
-## Tecnologias
+## Estrutura
 
-- React 19
-- Next.js 16 com Vinext
-- TypeScript
-- Tailwind CSS
-- Cloudflare Workers
-- Cloudflare D1
-- Cloudflare R2
-- Drizzle ORM
+- `index.html`: página principal.
+- `assets/style.css`: estilos visuais.
+- `assets/static-overrides.css`: estilos das seções atualizadas.
+- `assets/gallery/`: fotografias da seção “Memória visual”.
+- `assets/trabalhos/`: policy briefs, materiais educativos e respectivas capas.
+- `assets/debora-lima-santos.jpg`: retrato profissional.
+- `assets/paisagem-pesquisa.jpg`: imagem de apoio.
 
-## Hospedagem
+## Atualização da galeria
 
-Este é um projeto dinâmico. O GitHub armazena e preserva o código-fonte, mas o GitHub Pages, sozinho, não executa o editor, os envios de fotos, o banco de dados ou o armazenamento de imagens.
+Como o GitHub Pages não possui banco de dados nem painel de edição, novas fotografias devem ser adicionadas à pasta `assets/gallery/` e incluídas no bloco da galeria em `index.html`.
 
-A versão completa precisa ser executada em uma plataforma compatível com Cloudflare Workers, D1 e R2. O site atualmente publicado continua funcionando com todos esses recursos.
+## Direitos autorais
 
-## Desenvolvimento local
-
-Requisitos:
-
-- Node.js 22.13 ou superior
-- npm
-
-Instalação e execução:
-
-```bash
-npm ci
-npm run dev
-```
-
-Compilação:
-
-```bash
-npm run build
-```
-
-## Dados da galeria
-
-O repositório contém o sistema da galeria, mas não inclui as fotografias e os textos cadastrados durante o uso do site. Esses dados permanecem no armazenamento da aplicação publicada.
-
-## Autoria
-
-Débora Lima Santos  
-Bióloga e doutora em Ecologia e Conservação da Biodiversidade.
-
-## Direitos
-
-O conteúdo textual, as fotografias e a identidade profissional pertencem à autora. Nenhuma licença de reutilização foi concedida neste repositório.
+Este repositório não possui licença de código aberto. Consulte [COPYRIGHT.md](COPYRIGHT.md).
