@@ -1,35 +1,13 @@
 # Site profissional — Débora Lima Santos
 
-Portfólio profissional, acadêmico e científico de Débora Lima Santos, bióloga e doutora em Ecologia e Conservação da Biodiversidade.
+Versão estática preparada para publicação no GitHub Pages.
 
-## Publicação no GitHub Pages
+## Publicação
 
-Este repositório foi preparado como um site estático. Para publicar:
+1. Envie todo o conteúdo desta pasta para a raiz do repositório `debora-lima-santos-site`.
+2. No GitHub, acesse **Settings > Pages**.
+3. Em **Build and deployment**, escolha **Deploy from a branch**.
+4. Selecione a branch **main**, a pasta **/(root)** e clique em **Save**.
 
-1. Abra **Settings** no repositório.
-2. Acesse **Pages**.
-3. Em **Build and deployment**, selecione **Deploy from a branch**.
-4. Escolha a branch **main**, a pasta **/(root)** e clique em **Save**.
-5. Aguarde a publicação e, na mesma página, clique em **Visit site**.
+O arquivo `.nojekyll` deve permanecer no repositório. Ele permite que o GitHub Pages publique os arquivos estáticos sem processamento adicional.
 
-O endereço esperado é:
-
-<https://deblslima3.github.io/debora-lima-santos-site/>
-
-## Estrutura
-
-- `index.html`: página principal.
-- `assets/style.css`: estilos visuais.
-- `assets/static-overrides.css`: estilos das seções atualizadas.
-- `assets/gallery/`: fotografias da seção “Memória visual”.
-- `assets/trabalhos/`: policy briefs, materiais educativos e respectivas capas.
-- `assets/debora-lima-santos.jpg`: retrato profissional.
-- `assets/paisagem-pesquisa.jpg`: imagem de apoio.
-
-## Atualização da galeria
-
-Como o GitHub Pages não possui banco de dados nem painel de edição, novas fotografias devem ser adicionadas à pasta `assets/gallery/` e incluídas no bloco da galeria em `index.html`.
-
-## Direitos autorais
-
-Este repositório não possui licença de código aberto. Consulte [COPYRIGHT.md](COPYRIGHT.md).
